@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tugas JS - Form Input</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">FORM INPUT</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <form id="form">
+          <tr>
+            <td>
+              <label for="name">Nama</label>
+            </td>
+            <td>
+              <input type="text" name="name" placeholder="Masukkan Nama" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="job">Pekerjaan</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="job"
+                placeholder="Masukkan Pekerjaan"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="hobby">Hobi</label>
+            </td>
+            <td>
+              <input type="text" name="hobby" placeholder="Masukkan Hobi" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button type="button" onclick="submit()">Submit</button>
+            </td>
+          </tr>
+        </form>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">
+            <p id="result" style="text-align: center"></p>
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
